@@ -1,6 +1,11 @@
 body {
-    background:black;
+    background: url(images/neda-astani-KWTkd7mHqKE-unsplash-min.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-attachment:fixed;
     font-family: Arial, sans-serif;
+    text-shadow: 0 0 10px black;
 }
 
 .search-container {
@@ -16,7 +21,7 @@ body {
     border-radius:10px;
     outline:none;
     border:none;
-    background:rgb(226, 224, 224);
+    background:rgb(206, 203, 203);
 
 }
 
@@ -74,6 +79,8 @@ body {
 }
 
 .humidity-text {
+    font-size:20px;
+    font-weight:bold;
     color:white;
     margin-bottom:0;
     margin-top:40px;
@@ -81,9 +88,6 @@ body {
     margin-right:10px;
 }
 
-.wind-text {
-    color:white;
-}
 
 
 .forecast-container {
@@ -102,18 +106,24 @@ body {
     color:white;
     margin-top:0;
     margin-left:10px;
+    font-weight:bold;
+    font-size:18px;
 }
 
 .wind-text {
+    font-size:20px;
     color:white;
     margin-top:40px;
     margin-bottom:0;
     margin-left:10px;
+    font-weight: bold;
 }
 
 .wind-speed {
     color:white;
     margin-top:0;
     margin-left:10px;
+    font-weight: bold;
+    font-size:18px;
 }
 
